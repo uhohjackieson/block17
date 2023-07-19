@@ -44,7 +44,7 @@ const sumTotal = (accumulator, currentValue) => {
     return accumulator + currentValue;
 }
 const totalCost = drinksCostArray.reduce(sumTotal);
-console.log(totalCost);
+console.log(`The total cost is $${totalCost}.`);
 
 // add "with imported beans" after each seasonal drink
 const seasonalDrinks = (item) => {
